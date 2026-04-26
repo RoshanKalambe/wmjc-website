@@ -1,0 +1,248 @@
+.courses-wrapper {
+  background: linear-gradient(to right, #dbe6f6, #c7d6ec);
+  padding: 50px 0;
+  width: 100%;
+}
+
+.courses-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.courses-left {
+  flex: 2;
+  min-width: 300px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f4e8c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1f4e8c;
+  letter-spacing: 0.5px;
+}
+
+.course-group {
+  background: white;
+  border-radius: 10px;
+  padding: 26px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.course-group h3 {
+  color: #cc2200;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.course-group h4 {
+  color: #1f4e8c;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 16px 0 8px;
+}
+
+.course-group p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.course-group ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.course-group li {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.norm-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.norm-table th {
+  background: #2c5fa8;
+  color: white;
+  padding: 11px 14px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.norm-table td {
+  background: #f0f6ff;
+  padding: 10px 14px;
+  border: 1px solid #c3d5ea;
+  color: #333;
+}
+
+.norm-table td:last-child {
+  font-weight: 600;
+  color: #1f4e8c;
+}
+
+/* RIGHT */
+.courses-right {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.new-courses-card {
+  background: #2c5fa8;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.new-courses-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.course-item .course-name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.course-item .course-desc {
+  font-size: 13px;
+  line-height: 1.65;
+  opacity: 0.92;
+}
+
+.career-card {
+  background: #2c5fa8;
+  color: white;
+  padding: 18px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.career-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.career-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.career-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.college-img-box {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 160px;
+}
+
+.college-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.exam-scores-card {
+  background: #2c5fa8;
+  color: white;
+  padding: 18px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.exam-scores-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.score-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.score-item:last-child {
+  border-bottom: none;
+}
+
+.score-item .score-label {
+  opacity: 0.9;
+}
+
+.score-item .score-value {
+  font-weight: 700;
+}
+
+.news-bar {
+  background: #dbe6f6;
+  border-top: 1px solid #b0c8e8;
+  padding: 12px 40px;
+  font-size: 14px;
+  color: #1a3c7a;
+  width: 100%;
+}
+
+.news-bar strong {
+  color: #1f4e8c;
+}
+
+@media (max-width: 768px) {
+  .courses-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .courses-left,
+  .courses-right {
+    width: 100%;
+  }
+
+  .news-bar {
+    padding: 12px 20px;
+  }
+}

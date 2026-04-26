@@ -1,0 +1,145 @@
+.management-wrapper {
+  background: linear-gradient(to right, #dbe6f6, #c7d6ec);
+  padding: 50px 0;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.management-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.management-left {
+  flex: 2;
+  min-width: 300px;
+}
+
+.management-right {
+  flex: 1;
+  min-width: 260px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f4e8c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1f4e8c;
+  letter-spacing: 0.5px;
+}
+
+.management-card {
+  background: white;
+  border-radius: 10px;
+  padding: 26px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.management-card h3 {
+  color: #1f4e8c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.management-card .subtitle {
+  color: #cc2200;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.mgmt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.mgmt-table thead td {
+  background: #2c5fa8;
+  color: white;
+  padding: 11px 14px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 15px;
+}
+
+.mgmt-table tbody tr:nth-child(odd) {
+  background: #f0f6ff;
+}
+
+.mgmt-table tbody tr:nth-child(even) {
+  background: #dbe6f6;
+}
+
+.mgmt-table tbody td {
+  padding: 10px 14px;
+  border: 1px solid #c3d5ea;
+  color: #222;
+  font-size: 14px;
+}
+
+.mgmt-table tbody td:first-child {
+  text-align: center;
+  font-weight: 600;
+  width: 40px;
+  color: #1f4e8c;
+}
+
+.photo-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-placeholder {
+  width: 100%;
+  height: 260px;
+  background: #2c5fa8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+
+.news-bar {
+  background: #dbe6f6;
+  border-top: 1px solid #b0c8e8;
+  padding: 12px 40px;
+  font-size: 14px;
+  color: #1a3c7a;
+  width: 100%;
+}
+
+.news-bar strong {
+  color: #1f4e8c;
+}
+
+@media (max-width: 768px) {
+  .management-container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .news-bar {
+    padding: 12px 20px;
+  }
+}

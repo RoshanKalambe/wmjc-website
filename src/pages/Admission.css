@@ -1,0 +1,171 @@
+.admission-wrapper {
+  background: linear-gradient(to right, #dbe6f6, #c7d6ec);
+  padding: 50px 0;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.admission-container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.admission-left { flex: 2; min-width: 300px; }
+.admission-right { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 20px; }
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f4e8c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1f4e8c;
+}
+
+.admission-card {
+  background: white;
+  border-radius: 10px;
+  padding: 26px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+  margin-bottom: 22px;
+}
+
+.admission-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f4e8c;
+  margin-bottom: 12px;
+}
+
+.admission-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #cc2200;
+  margin: 14px 0 8px;
+}
+
+.admission-card p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.admission-card ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.admission-card ul li {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.accid-box {
+  background: #f0f6ff;
+  border: 1px solid #c3d5ea;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 14px 0;
+  font-size: 13.5px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.accid-box strong { color: #1f4e8c; }
+
+.fees-highlight {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 13.5px;
+  color: #333;
+  margin-top: 12px;
+}
+
+.fees-highlight strong { color: #cc2200; }
+
+.quota-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 14px;
+}
+
+.quota-table th {
+  background: #2c5fa8;
+  color: white;
+  padding: 9px 12px;
+  text-align: center;
+  border: 1px solid #1a4a80;
+}
+
+.quota-table td {
+  padding: 8px 12px;
+  border: 1px solid #c3d5ea;
+  text-align: center;
+  color: #333;
+}
+
+.quota-table tr:nth-child(even) td { background: #f0f6ff; }
+.quota-table tr:nth-child(odd) td { background: #fff; }
+.quota-table .total-row td {
+  background: #2c5fa8 !important;
+  color: white;
+  font-weight: 700;
+}
+
+.quota-header {
+  background: #f0a500 !important;
+  color: white !important;
+}
+
+/* RIGHT CARDS */
+.info-card {
+  background: #2c5fa8;
+  color: white;
+  padding: 18px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+}
+
+.info-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.info-card p, .info-card li {
+  font-size: 13px;
+  line-height: 1.75;
+  opacity: 0.93;
+}
+
+.info-card ul { padding-left: 18px; }
+
+.news-bar {
+  background: #dbe6f6;
+  border-top: 1px solid #b0c8e8;
+  padding: 12px 40px;
+  font-size: 14px;
+  color: #1a3c7a;
+  width: 100%;
+}
+.news-bar strong { color: #1f4e8c; }
+
+@media (max-width: 768px) {
+  .admission-container { flex-direction: column; padding: 0 16px; }
+  .news-bar { padding: 12px 16px; }
+}

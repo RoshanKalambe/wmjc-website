@@ -1,0 +1,258 @@
+.rti-wrapper {
+  background: linear-gradient(to right, #dbe6f6, #c7d6ec);
+  padding: 50px 0;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.rti-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f4e8c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1f4e8c;
+  letter-spacing: 0.5px;
+}
+
+.rti-card {
+  background: white;
+  border-radius: 10px;
+  padding: 28px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  margin-bottom: 22px;
+}
+
+.rti-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f4e8c;
+  margin-bottom: 14px;
+}
+
+.rti-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #cc2200;
+  margin: 18px 0 10px;
+}
+
+.rti-card p {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.rti-card ul {
+  padding-left: 22px;
+  margin-bottom: 14px;
+}
+
+.rti-card ul li {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+/* HIGHLIGHT BOX */
+.rti-highlight {
+  background: #f0f6ff;
+  border-left: 4px solid #2c5fa8;
+  border-radius: 0 8px 8px 0;
+  padding: 16px 20px;
+  margin: 14px 0;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.rti-highlight strong {
+  color: #1f4e8c;
+}
+
+/* INFO TABLE */
+.rti-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.rti-table th {
+  background: #2c5fa8;
+  color: white;
+  padding: 11px 14px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.rti-table td {
+  padding: 10px 14px;
+  border: 1px solid #c3d5ea;
+  color: #333;
+  vertical-align: top;
+}
+
+.rti-table tr:nth-child(even) td {
+  background: #f0f6ff;
+}
+
+.rti-table tr:nth-child(odd) td {
+  background: #fff;
+}
+
+/* FORM */
+.form-section-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f4e8c;
+  background: #dbe6f6;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 18px 0 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #c3d5ea;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #2c5fa8;
+}
+
+.form-group textarea {
+  height: 110px;
+  resize: vertical;
+}
+
+.form-note {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 18px;
+  font-style: italic;
+}
+
+.submit-btn {
+  background: #2c5fa8;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.submit-btn:hover {
+  background: #1a4a80;
+}
+
+/* ANNUAL REPORT */
+.report-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #dbe6f6;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.report-item:last-child {
+  border-bottom: none;
+}
+
+.report-item-info h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1f4e8c;
+  margin-bottom: 4px;
+}
+
+.report-item-info p {
+  font-size: 13px;
+  color: #666;
+  margin: 0;
+}
+
+.download-btn {
+  background: #2c5fa8;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.download-btn:hover {
+  background: #1a4a80;
+}
+
+.news-bar {
+  background: #dbe6f6;
+  border-top: 1px solid #b0c8e8;
+  padding: 12px 40px;
+  font-size: 14px;
+  color: #1a3c7a;
+  width: 100%;
+}
+
+.news-bar strong {
+  color: #1f4e8c;
+}
+
+@media (max-width: 768px) {
+  .rti-container { padding: 0 16px; }
+  .form-row { flex-direction: column; }
+  .news-bar { padding: 12px 16px; }
+  .report-item { flex-direction: column; align-items: flex-start; }
+}

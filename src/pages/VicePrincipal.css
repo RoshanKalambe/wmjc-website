@@ -1,0 +1,141 @@
+.vp-wrapper {
+  background: linear-gradient(to right, #dbe6f6, #c7d6ec);
+  padding: 50px 0;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.vp-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f4e8c;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #1f4e8c;
+  letter-spacing: 0.5px;
+}
+
+.vp-card {
+  background: white;
+  border-radius: 10px;
+  padding: 34px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.vp-profile {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.vp-photo {
+  width: 150px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 3px solid #4a86c5;
+  flex-shrink: 0;
+}
+
+.vp-photo-placeholder {
+  width: 150px;
+  height: 180px;
+  border-radius: 8px;
+  background: #2c5fa8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  border: 3px solid #4a86c5;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.vp-info {
+  padding-top: 8px;
+}
+
+.vp-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1f4e8c;
+  margin-bottom: 6px;
+}
+
+.vp-info p {
+  font-size: 15px;
+  color: #555;
+}
+
+.vp-message {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.vp-message p {
+  margin-bottom: 16px;
+}
+
+.vp-message ol {
+  padding-left: 22px;
+  margin-bottom: 16px;
+}
+
+.vp-message ol li {
+  margin-bottom: 12px;
+  line-height: 1.75;
+  font-size: 15px;
+}
+
+.vp-quote {
+  font-style: italic;
+  color: #1a3c7a;
+  border-left: 4px solid #4a86c5;
+  padding: 12px 18px;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.75;
+  background: #f0f6ff;
+  border-radius: 0 8px 8px 0;
+}
+
+.news-bar {
+  background: #dbe6f6;
+  border-top: 1px solid #b0c8e8;
+  padding: 12px 40px;
+  font-size: 14px;
+  color: #1a3c7a;
+  width: 100%;
+}
+
+.news-bar strong {
+  color: #1f4e8c;
+}
+
+@media (max-width: 768px) {
+  .vp-container {
+    padding: 0 20px;
+  }
+
+  .vp-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-bar {
+    padding: 12px 20px;
+  }
+}
