@@ -19,7 +19,7 @@ function VicePrincipal() {
             <div className="vp-profile">
               <div className="vp-photo-placeholder">VP Photo</div>
               <div className="vp-info">
-                <h3>Mrs. Vedangi Kulkarni</h3>
+                <h3>Mrs. Vice Principal</h3>
                 <p>M. Com., B. Ed., M. Phil</p>
               </div>
             </div>
@@ -92,7 +92,7 @@ function VicePrincipal() {
       </div>
 
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

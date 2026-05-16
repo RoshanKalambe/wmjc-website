@@ -15,14 +15,29 @@ function Contact() {
           <div className="contact-left">
             <div className="section-title">Contact Us</div>
 
-            {/* Map */}
+            {/* Map — Demo placeholder instead of real location */}
             <div className="map-box">
-              <iframe
-                title="WMJC Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.0!2d72.9631!3d19.1693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9e4b3b3b3b3%3A0x3b3b3b3b3b3b3b3b!2sWamanrao+Muranjan+Junior+College!5e0!3m2!1sen!2sin!4v1234567890"
-                allowFullScreen=""
-                loading="lazy"
-              ></iframe>
+              <div style={{
+                width: "100%",
+                height: "280px",
+                background: "linear-gradient(135deg, #dbe6f6, #c7d6ec)",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "12px",
+                borderRadius: "8px",
+                color: "#2c5fa8",
+                fontSize: "15px",
+                fontWeight: "600",
+                border: "2px dashed #b0c8e8",
+              }}>
+                <span style={{ fontSize: "40px" }}>📍</span>
+                <span>Campus Location Map</span>
+                <span style={{ fontSize: "13px", color: "#6b8cba", fontWeight: "400" }}>
+                  Map will be embedded here with actual college location
+                </span>
+              </div>
             </div>
 
             {/* Contact Info */}
@@ -34,22 +49,24 @@ function Contact() {
               </div>
               <div className="contact-info-row">
                 <span className="label">City:</span>
-                <span className="value">Mulund East, Mumbai</span>
+                <span className="value">Demo City, Maharashtra</span>
               </div>
               <div className="contact-info-row">
                 <span className="label">Email:</span>
                 <span className="value">
-                  <a href="mailto:wamanraojc@yahoo.in">wamanraojc@yahoo.in</a><br />
-                  <a href="mailto:info@wmjc.in">info@wmjc.in</a>
+                  <a href="mailto:info@democollege.in">info@democollege.in</a><br />
+                  <a href="mailto:admin@democollege.in">admin@democollege.in</a>
                 </span>
               </div>
               <div className="contact-info-row">
                 <span className="label">Call us:</span>
                 <span className="value">
-                  022 – 21636755<br />
-                  022 – 25630347<br />
-                  Mobile: 93216 69381<br />
-                  <em style={{ fontSize: "12px", color: "#666" }}>(On working days Between 10 AM to 5 PM)</em>
+                  022 – XXXXXXX<br />
+                  022 – XXXXXXX<br />
+                  Mobile: 9XXXXXXXXX<br />
+                  <em style={{ fontSize: "12px", color: "#666" }}>
+                    (On working days Between 10 AM to 5 PM)
+                  </em>
                 </span>
               </div>
             </div>
@@ -58,15 +75,15 @@ function Contact() {
             <div className="address-card">
               <h3>Address</h3>
               <p>
-                Wamanrao Muranjan Junior College of Science &amp; Commerce,<br />
-                Sharadanilayam Complex,<br />
-                Neelam Nagar Phase-2,<br />
-                Mulund (East) – 400081
+                Demo Junior College of Science &amp; Commerce,<br />
+                Demo Complex,<br />
+                Demo Nagar Phase-2,<br />
+                Demo City – XXXXXX
               </p>
               <p>
                 <strong>Website of our Senior College:</strong><br />
-                <a href="http://drampradhansc.wmjc.in/" target="_blank" rel="noreferrer">
-                  www.drampradhansc.wmjc.in
+                <a href="#" target="_blank" rel="noreferrer">
+                  www.democollege.in
                 </a>
               </p>
             </div>
@@ -114,9 +131,11 @@ function Contact() {
 
         </div>
       </div>
+
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office — New Telephone Number Coming Soon 😊
       </div>
+
       <Footer />
     </>
   );

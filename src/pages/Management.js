@@ -5,29 +5,29 @@ import Footer from "../components/Footer";
 
 function Management() {
   const boardOfDirectors = [
-    { name: "Dr. Ananad A. Pradhan", role: "Chairman" },
-    { name: "Mr. Deepak P. Joshi", role: "Secretary" },
-    { name: "Mr. Ravi V. Pranjape", role: "Trustee" },
-    { name: "Mr. Shreedhar G. Gharat", role: "Trustee" },
-    { name: "Mr. Ajit G. Karandikar", role: "Trustee" },
-    { name: "Mr. Kiran R. Deshmukh", role: "Trustee" },
+    { name: "Dr. Chairman sir", role: "Chairman" },
+    { name: "Mr. Secretary Sir", role: "Secretary" },
+    { name: "Mr. Trustee Sir", role: "Trustee" },
+    { name: "Mr. Trustee Sir", role: "Trustee" },
+    { name: "Mr. Trustee Sir", role: "Trustee" },
+    { name: "Mr. Trustee Sir", role: "Trustee" },
   ];
 
   const managingCommittee = [
-    { name: "Dr. Anand A. Pradhan", role: "Hon. Chairman" },
-    { name: "Suhas M. Kane", role: "Vice-Chairman" },
-    { name: "Mr. Deepak P. Joshi", role: "Trustee & Hon. Secretary" },
-    { name: "Mr. Venkatesh S. Iyer", role: "Treasurer" },
-    { name: "Mr. Ravi Paranjape", role: "Hon. Trustee" },
-    { name: "Mr. B.K. Choudhari", role: "Hon. Trustee & M.C. Member" },
-    { name: "Mr. Shreedhar Gharat", role: "Hon. Trustee" },
-    { name: "Mr. Kiran R. Deshmukh", role: "Trustee & M.C. Member" },
-    { name: "Mr. Salil Pradhan", role: "Hon. Trustee" },
-    { name: "Mr. Kiran R. Pradhan", role: "M.C. Member" },
-    { name: "Mr. Jayant Gadre", role: "M.C. Member" },
-    { name: "Mr. Atul Dharap", role: "M.C. Member" },
-    { name: "Mr. Manoj More", role: "M.C. Member" },
-    { name: "Mr. Vilas R. Khoburekar", role: "M.C. Member" },
+    { name: "Dr. Chairman sir", role: "Hon. Chairman" },
+    { name: "Mr. Vice-Chairman Sir", role: "Vice-Chairman" },
+    { name: "Mr. Secretary Sir", role: "Trustee & Hon. Secretary" },
+    { name: "Mr. Treasurer Sir", role: "Treasurer" },
+    { name: "Mr. Trustee Sir", role: "Hon. Trustee" },
+    { name: "Mr. Trustee Sir", role: "Hon. Trustee & M.C. Member" },
+    { name: "Mr. Trustee Sir", role: "Hon. Trustee" },
+    { name: "Mr. Trustee Sir", role: "Trustee & M.C. Member" },
+    { name: "Mr. Trustee Sir", role: "Hon. Trustee" },
+    { name: "Mr. M.C. Member", role: "M.C. Member" },
+    { name: "Mr. M.C. Member", role: "M.C. Member" },
+    { name: "Mr. M.C. Member", role: "M.C. Member" },
+    { name: "Mr. M.C. Member", role: "M.C. Member" },
+    { name: "Mr. M.C. Member", role: "M.C. Member" },
   ];
 
   return (
@@ -44,7 +44,7 @@ function Management() {
 
             {/* Board of Directors */}
             <div className="management-card">
-              <h3>Raosaheb Balaram Dnyandeo Thakur Vidyamandir</h3>
+              <h3>College Management Trustee's name</h3>
               <p className="subtitle">Most of the Members are past students of same institution</p>
 
               <table className="mgmt-table">
@@ -97,7 +97,7 @@ function Management() {
       </div>
 
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

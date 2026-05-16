@@ -15,7 +15,7 @@ function TeachingPosts() {
           <div className="recruitment-card">
             <h3>About Teaching Positions</h3>
             <p>
-              Wamanrao Muranjan Junior College of Science and Commerce invites applications
+              Demo College of Science and Commerce invites applications
               from eligible and qualified candidates for teaching positions. The college is
               committed to providing quality education and seeks dedicated, experienced and
               passionate educators to join our team.
@@ -120,7 +120,7 @@ function TeachingPosts() {
               supporting documents to the college office directly.
             </p>
             <p>
-              <strong>Email:</strong> wamanraojc@yahoo.in / info@wmjc.in<br />
+              <strong>Email:</strong> demo college@yahoo.in / info@democollege.in<br />
               <strong>Contact:</strong> 022 – 21636755 / 022 – 25630347<br />
               <strong>Timing:</strong> Monday to Saturday, 10 AM to 5 PM
             </p>
@@ -129,7 +129,7 @@ function TeachingPosts() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

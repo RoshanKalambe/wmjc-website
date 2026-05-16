@@ -15,7 +15,7 @@ function NonTeachingPosts() {
           <div className="recruitment-card">
             <h3>About Non-Teaching Positions</h3>
             <p>
-              Wamanrao Muranjan Junior College also invites applications for various
+              Demo College also invites applications for various
               non-teaching positions. These positions are essential for the smooth
               functioning of the college and provide vital support to the academic
               and administrative departments.
@@ -111,7 +111,7 @@ function NonTeachingPosts() {
               resume and documents to the college office during working hours.
             </p>
             <p>
-              <strong>Email:</strong> wamanraojc@yahoo.in / info@wmjc.in<br />
+              <strong>Email:</strong> demo college@yahoo.in / info@democollege.in<br />
               <strong>Contact:</strong> 022 – 21636755 / 022 – 25630347<br />
               <strong>Timing:</strong> Monday to Saturday, 10 AM to 5 PM
             </p>
@@ -120,7 +120,7 @@ function NonTeachingPosts() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

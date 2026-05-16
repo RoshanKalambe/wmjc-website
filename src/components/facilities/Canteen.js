@@ -14,7 +14,7 @@ function Canteen() {
           <div className="facilities-card">
 
             <p className="facilities-intro">
-              WMJC provides excellent student amenities to ensure comfort and well-being of all
+              College provides excellent student amenities to ensure comfort and well-being of all
               students and staff on campus. The canteen, common rooms and other student facilities
               are designed to create a welcoming and supportive campus environment.
             </p>
@@ -84,7 +84,7 @@ function Canteen() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

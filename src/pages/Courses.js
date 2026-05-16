@@ -2,7 +2,7 @@ import "./Courses.css";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import collegeImg from "../assets/Tropical construction with a green facade.png";
+
 
 function Courses() {
   return (
@@ -10,140 +10,163 @@ function Courses() {
       <Navbar />
       <Hero />
 
-      {/* ── MAIN CONTENT ─────────────────────────────────── */}
+      {/* MAIN CONTENT */}
       <div className="courses-wrapper">
         <div className="courses-container">
 
-          {/* ── LEFT COLUMN ──────────────────────────────── */}
+          {/* LEFT COLUMN - COURSES CONTENT */}
           <div className="courses-left">
-            <div className="section-title">Basic Courses</div>
+            <div className="section-title">Academic Streams</div>
 
-            {/* Science / Arts / Commerce descriptions */}
+            {/* Science Stream */}
             <div className="course-group">
-              <h3>Subjects</h3>
+              <h3>Science Stream</h3>
 
-              <h4>Science</h4>
+              <h4>General Science (STEM)</h4>
               <p>
-                <strong>Gen. Science</strong>Along with the basic subjects of Physics, Chemistry, Mathematics and English of 100 marks each, students have to take biology and any one of the second language i.e. Marathi or Hindi.
-                Science with I.T.Student even can take Information Technology as optional subject instead of Marathi or Hindi with all compulsory Subjects
+                Comprehensive science education with core subjects: Physics, Chemistry, Mathematics, and Biology.
+                All subjects are 100 marks each. Students can choose between Marathi or Hindi as a second language.
+                This stream prepares students for medical, engineering, and research careers.
               </p>
-              <p>
-                <strong>Bi-focal Science</strong>Along with the basic subjects (Compulsory subjects) of Physics, Chemistry, Mathematics and English of 100 marks each, students can select any one of the following three subjects as Bi-focal subject 
-                1.Computer Science
-                2.Electrical Maintenance
-                Each of these bifocal subjects consist two papers of 100 marks each. In this case student will not be allowed to select Biology and second language. In addition to these five subjects, Environmental studies and Physical education are the two additional subjects which have grading.
-              </p>
+              <ul>
+                <li>Physics - Classical & Modern Mechanics</li>
+                <li>Chemistry - Organic & Inorganic Chemistry</li>
+                <li>Mathematics - Advanced Calculus & Algebra</li>
+                <li>Biology - Botany & Zoology</li>
+              </ul>
 
-              <h4>Commerce</h4>
+              <h4>Bifocal Science (Tech-focused)</h4>
               <p>
-                It consists
-                1.Book Keeping and Accountancy
-                2.Organization of Commerce and Management
-                3.Economics
-                4.English (Compulsory subjects)
-                5.Marathi or Hindi
-                6.Secretarial Practice or Mathematics
-                7.Environmental studies and Physical education are the two additional subjects which have grading system.
-                Commerce with I.T.
-                Apart from all above subjects student can select Information Technology as optional subject instead of Marathi or Hindi.
+                Advanced science stream with specialization options. Choose between:
+              </p>
+              <ul>
+                <li>Computer Science - Programming, Data Structures, Web Development</li>
+                <li>Electronics - Circuit Design, Microcontrollers, Digital Systems</li>
+              </ul>
+              <p>
+                Each specialization consists of two 100-mark papers. Students don't take Biology or second language in this stream.
               </p>
             </div>
 
-            {/* Passing Norms Table */}
+            {/* Commerce Stream */}
             <div className="course-group">
-              <h3>Norms and Standard of Passing the Examination</h3>
+              <h3>Commerce Stream</h3>
+
+              <h4>Core Commerce</h4>
+              <p>
+                Ideal for students interested in business, finance, and management. Core subjects include:
+              </p>
+              <ul>
+                <li>Book Keeping & Accountancy - Financial Management</li>
+                <li>Organization of Commerce & Management - Business Principles</li>
+                <li>Economics - Microeconomics & Macroeconomics</li>
+                <li>English (Compulsory)</li>
+                <li>Marathi or Hindi (Second Language)</li>
+                <li>Secretarial Practice or Mathematics (Elective)</li>
+              </ul>
+
+              <h4>Commerce with IT</h4>
+              <p>
+                Commerce stream enhanced with Information Technology skills for careers in fintech, e-commerce, and digital business.
+              </p>
+            </div>
+
+            {/* Grading System */}
+            <div className="course-group">
+              <h3>Grading & Passing Standards</h3>
               <table className="norm-table">
                 <thead>
                   <tr>
                     <th>#</th>
-                    <th>Standard</th>
                     <th>Grade</th>
-                    <th>Percentage</th>
+                    <th>Percentage Range</th>
+                    <th>Academic Level</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Standard of Passing of Examination</td>
                     <td>A++</td>
-                    <td>70.00% and above</td>
+                    <td>70% and above</td>
+                    <td>Outstanding</td>
                   </tr>
                   <tr>
                     <td>2</td>
-                    <td>Norms for Science HSC Electronics (Comp. SC)</td>
                     <td>A</td>
-                    <td>60.00% to 60.99%</td>
+                    <td>60% to 69.99%</td>
+                    <td>Excellent</td>
                   </tr>
                   <tr>
                     <td>3</td>
-                    <td>Norms for Commerce &amp; Arts HSC</td>
                     <td>B</td>
-                    <td>45.00% to 35.99%</td>
+                    <td>50% to 59.99%</td>
+                    <td>Good</td>
                   </tr>
                   <tr>
                     <td>4</td>
-                    <td>Norms for Science HSC</td>
-                    <td>F</td>
-                    <td>35.00% to 40.99%</td>
+                    <td>C</td>
+                    <td>40% to 49.99%</td>
+                    <td>Average</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>D</td>
+                    <td>Pass (Below 40%)</td>
+                    <td>Minimum</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
 
-          {/* ── RIGHT COLUMN ─────────────────────────────── */}
+          {/* RIGHT COLUMN - SIDEBAR */}
           <div className="courses-right">
 
-            {/* New Courses Card */}
+            {/* Featured Course Card */}
             <div className="new-courses-card">
-              <h4>NEW COURSES</h4>
+              <h4>Featured Specialization</h4>
               <div className="course-item">
-                <div className="course-name">⚡ Electrical Maintenance</div>
+                <div className="course-name">💻 Computer Science (Bifocal)</div>
                 <div className="course-desc">
-                  Courses knowledge about residential, commercial, and industrial electrical circuits.
-                  Prema hands-on training, conducted in a well-equipped classroom technical
-                  Machines-operational continued by par ment, tant Communes Encompasiated payments
-                  harmonic-style. Seeks motivated students can meecos on used tie professing prestas
-                  careeress, isturmine knowledge frode the basances to Strictly got extractions used
-                  shuda. In-facticial examination of forests, said nearnimidaries select knowledge
-                  in stetions.
+                  Master programming, data structures, web development, and software engineering principles.
+                  Hands-on lab experience with modern tools and frameworks. Prepare for IT careers and competitive exams.
                 </div>
               </div>
             </div>
 
             {/* Career Guidance Card */}
             <div className="career-card">
-              <h4>CAREER GUIDANCE</h4>
-              <button className="career-btn">➡ Career Path Finder</button>
+              <h4>Career Support</h4>
+              <button className="career-btn">📋 Explore Career Paths</button>
             </div>
 
             {/* College Building Image */}
             <div className="college-img-box">
-              <img src={collegeImg} alt="WMJC College Building" />
+              <div className="college-img-placeholder">College Photo 1</div>
             </div>
 
-            {/* Exam Scores Card */}
+            {/* Learning Outcomes Card */}
             <div className="exam-scores-card">
-              <h4>NEW COURSES</h4>
+              <h4>Learning Outcomes</h4>
               <div className="score-item">
-                <span className="score-label">☐ Unit Test · Jun</span>
-                <span className="score-value">60.00</span>
+                <span className="score-label">Critical Thinking</span>
+                <span className="score-value">⭐⭐⭐⭐⭐</span>
               </div>
               <div className="score-item">
-                <span className="score-label">☐ Terminal Examination:</span>
-                <span className="score-value">60.00</span>
+                <span className="score-label">Problem Solving</span>
+                <span className="score-value">⭐⭐⭐⭐⭐</span>
               </div>
               <div className="score-item">
-                <span className="score-label">☐ Preliminary Exams ·</span>
-                <span className="score-value">69.00</span>
+                <span className="score-label">Teamwork & Communication</span>
+                <span className="score-value">⭐⭐⭐⭐⭐</span>
               </div>
               <div className="score-item">
-                <span className="score-label">☐ Preliminary Exams ·</span>
-                <span className="score-value">40.00</span>
+                <span className="score-label">Research & Analysis</span>
+                <span className="score-value">⭐⭐⭐⭐</span>
               </div>
               <div className="score-item">
-                <span className="score-label">☐ Others P ·</span>
-                <span className="score-value">33.90% to 40.90%</span>
+                <span className="score-label">Leadership Skills</span>
+                <span className="score-value">⭐⭐⭐⭐⭐</span>
               </div>
             </div>
 
@@ -153,7 +176,7 @@ function Courses() {
 
       {/* News bar */}
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>📚 Latest Update:</strong> New Computer Science lab inaugurated with cutting-edge equipment and software.
       </div>
 
       <Footer />

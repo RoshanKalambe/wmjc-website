@@ -176,7 +176,7 @@ function ApplicationForm() {
 
             <div className="form-group">
               <label>Cover Letter / About Yourself *</label>
-              <textarea placeholder="Tell us about yourself, your teaching philosophy, experience and why you want to join WMJC..."></textarea>
+              <textarea placeholder="Tell us about yourself, your teaching philosophy, experience and why you want to join college..."></textarea>
             </div>
 
             <div className="form-row">
@@ -196,7 +196,7 @@ function ApplicationForm() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>college News:</strong> college Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

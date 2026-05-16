@@ -15,20 +15,20 @@ function Faculty() {
 
           <div className="faculty-card">
             <div className="faculty-college-header">
-              WAMANRAO MURANJANJUNIOR COLLEGE OF SCIENCE AND COMMERCE
+              DEMO COLLEGE OF SCIENCE AND COMMERCE
             </div>
 
             {/* Principal */}
             <div className="faculty-principal-section">
               <h4>Principal</h4>
-              <p>MR. KUMAR GAIKWAD</p>
+              <p>MR. PRINCIPAL</p>
               <span>A1.DOW, A/82HGO-S.Q/B.BM</span>
             </div>
 
             {/* Vice Principal */}
             <div className="faculty-principal-section">
               <h4>Vice-Principal</h4>
-              <p>MRS. VEDANGI V. KULKARNI</p>
+              <p>MRS. VICE-PRINCIPAL</p>
               <span>M.COM (E) · M.Phil</span>
             </div>
 
@@ -41,12 +41,12 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">PHYSICS</td>
                 </tr>
                 <tr>
-                  <td>MS. JOYCE J. SHETTY</td><td>M.A. B.ED</td>
-                  <td>MRS. JYOTI S. PATKAR</td><td>M.SC B.ED</td>
+                  <td>MS. ENGLISH MAM</td><td>M.A. B.ED</td>
+                  <td>MRS. PHYSICS MAM</td><td>M.SC B.ED</td>
                 </tr>
                 <tr>
-                  <td>MRS. NURMIDY EYHIERYL</td><td>M.A. B.ED</td>
-                  <td>MRS. SPRYPNO A. RAWAS</td><td>M.SC B.ED</td>
+                  <td>MRS. HINDI MAM</td><td>M.A. B.ED</td>
+                  <td>MRS. BIOLOGY MAM</td><td>M.SC B.ED</td>
                 </tr>
                 <tr>
                   <td>PRE.E./SITSEN PEN MARTNI K.R./EMRCHEN PRLEJEC RANNIE JEIMAGE M. T</td>
@@ -61,8 +61,8 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">BIOLOGY</td>
                 </tr>
                 <tr>
-                  <td>MRS. SHKHARE S. NAYANA</td><td>M.A. B.ED</td>
-                  <td>MRS. SWAPNA P. KAMBLE</td><td>M.SC B.ED</td>
+                  <td>MRS. HINDI MAM</td><td>M.A. B.ED</td>
+                  <td>MRS. BIOLOGY MAM</td><td>M.SC B.ED</td>
                 </tr>
 
                 {/* IT + COMPUTER SCIENCE */}
@@ -71,8 +71,8 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">COMPUTER SCIENCE</td>
                 </tr>
                 <tr>
-                  <td>MRS. ROHINI M. WARADKAR</td><td>MCA</td>
-                  <td>MS. ANITA H. SHINDE</td><td>M.SC B.ED</td>
+                  <td>MRS. IT MAM</td><td>MCA</td>
+                  <td>MS. COMPUTER SCIENCE MAM</td><td>M.SC B.ED</td>
                 </tr>
 
                 {/* ORG. OF COMMERCE + COMPUTER SCIENCE */}
@@ -81,8 +81,8 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">COMPUTER SCIENCE</td>
                 </tr>
                 <tr>
-                  <td>MRS. PALLAVI T. GAWAS</td><td>M.COM. M.B.ED</td>
-                  <td>MRS. DEEPA R. PANCHAL</td><td>MCA B.ED</td>
+                  <td>MRS. ECONOMICS MAM</td><td>M.COM. M.B.ED</td>
+                  <td>MRS. COMPUTER SCIENCE MAM</td><td>MCA B.ED</td>
                 </tr>
 
                 {/* ECONOMICS + LIBRARIAN */}
@@ -91,8 +91,8 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">LIBRARIAN</td>
                 </tr>
                 <tr>
-                  <td>MRS. KISHORI P. PHADKE</td><td>M.A. B.ED</td>
-                  <td>SMT. SHILPA H. MAHAJAN</td><td>B.LIB</td>
+                  <td>MRS. ECONOMICS MAM</td><td>M.A. B.ED</td>
+                  <td>SMT. LIBRARIAN</td><td>B.LIB</td>
                 </tr>
 
                 {/* BOOK-KEEPING + PHYSICAL EDUCATION */}
@@ -101,8 +101,8 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">PHYSICAL EDUCATION</td>
                 </tr>
                 <tr>
-                  <td>MRS. JAIZY L. ALLAPAT</td><td>M.COM B.ED</td>
-                  <td>MR. VINOD L. BAGDE</td><td>B.A</td>
+                  <td>MRS. BOOK-KEEPING MAM</td><td>M.COM B.ED</td>
+                  <td>MR. PHYSICAL EDUCATION Sir</td><td>B.A</td>
                 </tr>
 
                 {/* PHYSICAL EDUCATION + LAB ASSISTANT */}
@@ -111,8 +111,8 @@ function Faculty() {
                   <td className="subject-header" colSpan="2">LAB ASSISTANT</td>
                 </tr>
                 <tr>
-                  <td>MR. DURVESH V. SALUNKE</td><td>B.COM B.PED</td>
-                  <td>MR. VINOD L. BAGDE</td><td>B.A</td>
+                  <td>MR. PHYSICAL EDUCATION  Sir</td><td>B.COM B.PED</td>
+                  <td>MR. LAB ASSISTANT</td><td>B.A</td>
                 </tr>
               </tbody>
             </table>
@@ -132,7 +132,7 @@ function Faculty() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

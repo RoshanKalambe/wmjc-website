@@ -21,7 +21,7 @@ function RTIPIODetails() {
               the RTI Act within the stipulated time frame of 30 days.
             </p>
             <p>
-              Wamanrao Muranjan Junior College has designated the following officers to handle
+              Demo College has designated the following officers to handle
               RTI applications and related matters.
             </p>
           </div>
@@ -39,11 +39,11 @@ function RTIPIODetails() {
                 <tr><td>Name</td><td><strong>MR. KUMAR GAIKWAD</strong></td></tr>
                 <tr><td>Designation</td><td>Principal</td></tr>
                 <tr><td>Department</td><td>Administration</td></tr>
-                <tr><td>Institution</td><td>Wamanrao Muranjan Junior College of Science and Commerce</td></tr>
+                <tr><td>Institution</td><td>Demo College of Science and Commerce</td></tr>
                 <tr><td>Address</td><td>Sharadanilayam Complex, Neelam Nagar Phase-2, Mulund (East) – 400081</td></tr>
                 <tr><td>Phone</td><td>022 – 21636755 / 022 – 25630347</td></tr>
                 <tr><td>Mobile</td><td>93216 69381</td></tr>
-                <tr><td>Email</td><td>wamanraojc@yahoo.in / info@wmjc.in</td></tr>
+                <tr><td>Email</td><td>demo college@yahoo.in / info@democollege.in</td></tr>
                 <tr><td>Office Hours</td><td>Monday to Saturday — 10:00 AM to 5:00 PM</td></tr>
               </tbody>
             </table>
@@ -63,10 +63,10 @@ function RTIPIODetails() {
                 <tr><td>Designation</td><td>Vice Principal</td></tr>
                 <tr><td>Department</td><td>Administration / Commerce</td></tr>
                 <tr><td>Qualification</td><td>M.COM (E) · M.Phil</td></tr>
-                <tr><td>Institution</td><td>Wamanrao Muranjan Junior College of Science and Commerce</td></tr>
+                <tr><td>Institution</td><td>Demo College of Science and Commerce</td></tr>
                 <tr><td>Address</td><td>Sharadanilayam Complex, Neelam Nagar Phase-2, Mulund (East) – 400081</td></tr>
                 <tr><td>Phone</td><td>022 – 21636755 / 022 – 25630347</td></tr>
-                <tr><td>Email</td><td>wamanraojc@yahoo.in</td></tr>
+                <tr><td>Email</td><td>demo college@yahoo.in</td></tr>
                 <tr><td>Office Hours</td><td>Monday to Saturday — 10:00 AM to 5:00 PM</td></tr>
               </tbody>
             </table>
@@ -89,10 +89,10 @@ function RTIPIODetails() {
               </thead>
               <tbody>
                 <tr><td>Appellate Authority</td><td><strong>Secretary / Trustee</strong></td></tr>
-                <tr><td>Institution</td><td>Raosaheb Balaram Dnyandeo Thakur Vidyamandir</td></tr>
+                <tr><td>Institution</td><td>Demo College of Science and Commerce</td></tr>
                 <tr><td>Address</td><td>Sharadanilayam Complex, Neelam Nagar Phase-2, Mulund (East) – 400081</td></tr>
                 <tr><td>Phone</td><td>022 – 21636755</td></tr>
-                <tr><td>Email</td><td>wamanraojc@yahoo.in</td></tr>
+                <tr><td>Email</td><td>demo college@yahoo.in</td></tr>
               </tbody>
             </table>
           </div>
@@ -112,7 +112,7 @@ function RTIPIODetails() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

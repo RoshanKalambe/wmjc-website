@@ -89,7 +89,7 @@ function Laboratory() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

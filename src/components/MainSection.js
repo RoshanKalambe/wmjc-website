@@ -5,134 +5,117 @@ function MainSection() {
     <>
       <div className="main-wrapper">
         <div className="main-container">
-
-          {/* LEFT */}
-          <div className="left-section">
-
-            <h3>WELCOME TO WMJC</h3>
+          {/* LEFT - WELCOME SECTION */}
+          <div className="left-section" id="welcome">
+            <h3>Welcome to college</h3>
 
             <p>
-              The Raosaheb Balaram Dnyandeo Thakur Vidyamandir's, Mulund was founded in 1937.
+              This junior college was founded in long time ago with the vision of providing quality education to students.
               It is one of the premiere junior colleges of science, Commerce and Bifocal streams
               providing quality education with modern facilities. The college is committed to the
               all-round development of students and is recognized by MSSTE.
             </p>
 
-            <p className="blue-title">NEW SYLLABUS (DISTRIBUTION OF MARKS)</p>
+            <p className="blue-title">Syllabus &amp; Marks Distribution</p>
 
             <table className="syllabus-table">
               <thead>
                 <tr>
-                  <th>Subjects</th>
-                  <th>Marks Distribution</th>
-                  <th>H.S.C Commerce &amp; SSC Board</th>
+                  <th>Stream</th>
+                  <th>Description</th>
+                  <th>Focus Area</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td colSpan="3">Promotion Units H.S.C / S.S.C / B.C.C Board: 25 × 500 = 800 Marks</td>
+                  <td>Science (General)</td>
+                  <td>Physics, Chemistry, Mathematics, Biology</td>
+                  <td>Medical/Engineering</td>
                 </tr>
                 <tr>
-                  <td>1539-1</td>
-                  <td>Computer Science / Electronics</td>
-                  <td></td>
+                  <td>Science (Bifocal)</td>
+                  <td>Includes specialization: Computer Science / Electronics</td>
+                  <td>Tech-focused</td>
                 </tr>
                 <tr>
-                  <td>Bifocal</td>
-                  <td>Electronics</td>
-                  <td></td>
+                  <td>Commerce</td>
+                  <td>Accounting, Economics, Business Management</td>
+                  <td>Business/Finance</td>
                 </tr>
                 <tr>
-                  <td>1538-X</td>
-                  <td colSpan="2">H.S.C Science &amp; SSC Board</td>
-                </tr>
-                <tr>
-                  <td colSpan="3">Promotion Units (H.S.C / C.B.C.C / SSC Board): 25 × 500 = 600 Marks</td>
-                </tr>
-                <tr>
-                  <td>1028-1</td>
-                  <td>Octure</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>2028-1</td>
-                  <td>Promotion for June (JB Year = 1103-25)</td>
-                  <td>🔥</td>
-                </tr>
-                <tr>
-                  <td>2029-2</td>
-                  <td>Sybmy gawsaithe xt 9 🎓</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td colSpan="3">2022-2 FYJC Admission Information Booklet: Yr: 26-25 🔥</td>
+                  <td>Commerce (IT)</td>
+                  <td>Commerce + Information Technology</td>
+                  <td>IT + Business</td>
                 </tr>
               </tbody>
             </table>
 
-            <p style={{ fontSize: "12px", marginBottom: "8px" }}>
-              <strong>Result Syllabus &nbsp; With Toppers: Academics Year '24-25</strong>
-            </p>
-
             <div className="result-box">
               <ul>
-                <li>BYJC Admission Bellory 🎓</li>
-                <li>Maharashtra Pegatly Safety 🏆</li>
-                <li>GR Mahosalahy Safety 📋</li>
+                <li>FYJC &amp; SYJC Admission Open</li>
+                <li>Online admission available - Apply Now</li>
+                <li>Excellence in Academic &amp; Extra-Curricular Activities</li>
+                <li>State-of-the-art facilities &amp; experienced faculty</li>
               </ul>
             </div>
-
           </div>
 
-          {/* RIGHT */}
+          {/* RIGHT - CARDS SECTION */}
           <div className="right-section">
-
+            {/* CALENDAR CARD */}
             <div className="calendar-card">
-              <h4>WMJC Academic Calendar 2025–2026</h4>
+              <h4>Academic Calendar 2025–2026</h4>
               <ul>
-                <li><strong>June 10, 2025</strong> – College Reopens</li>
-                <li><strong>July 14, 2025</strong> – College Reopens</li>
                 <li>
-                  <strong>July 14, 2025</strong> – FYJC Distribution<br />
-                  <em style={{ fontSize: "11px" }}>Scilify &amp; Computational Science Tax Syllabus, Raosaheb Guidelines Tablets, Connects result</em>
-                </li>
-                <li><strong>July 16, 2025</strong> – Sports Events</li>
-                <li>
-                  <strong>July 17, 2025</strong> – Investhere Community<br />
-                  <em style={{ fontSize: "11px" }}>Information Cum gouge</em>
+                  <strong>June 10, 2025</strong>
+                  <em>College Reopens</em>
                 </li>
                 <li>
-                  <strong>July 19, 2025</strong> – Frozen Teacher Meeting (FV/JC)<br />
-                  <em style={{ fontSize: "11px" }}>2021 25 Pogle to Fire</em>
+                  <strong>July 14, 2025</strong>
+                  <em>FYJC Distribution &amp; Science Syllabus</em>
                 </li>
                 <li>
-                  <strong>July 26, 2025</strong> – First Unit Test<br />
-                  <em style={{ fontSize: "11px" }}>Knowthence in Msek</em>
+                  <strong>July 16, 2025</strong>
+                  <em>Sports &amp; Athletic Events</em>
                 </li>
                 <li>
-                  <strong>Sept 28, 2025</strong> – Environment Week<br />
-                  <em style={{ fontSize: "11px" }}>Tree Restoration Drive</em>
+                  <strong>July 26, 2025</strong>
+                  <em>First Unit Test</em>
+                </li>
+                <li>
+                  <strong>September 28, 2025</strong>
+                  <em>Environment Week &amp; Tree Plantation Drive</em>
+                </li>
+                <li>
+                  <strong>October 2025</strong>
+                  <em>Mid-term Exams</em>
+                </li>
+                <li>
+                  <strong>December 2025</strong>
+                  <em>Annual Fest &amp; Exhibitions</em>
                 </li>
               </ul>
             </div>
 
+            {/* NOTICE BOARD CARD */}
             <div className="notice-card">
-              <h4>NOTICE BOARD</h4>
+              <h4>Notice Board</h4>
               <ul>
-                <li>SY. J.C. Science Syllabus</li>
-                <li>SY. J.C. Commerce Syllabus</li>
-                <li>FY. J.C. Science &amp; Commerce Syllabus</li>
+                <li>FY. J.C. Science Syllabus 2025</li>
+                <li>SY. J.C. Science &amp; Commerce Syllabus</li>
+                <li>Admission Requirements &amp; Documents</li>
+                <li>Scholarship Programs Available</li>
+                <li>Fee Structure &amp; Payment Options</li>
+                <li>Important Announcements</li>
               </ul>
             </div>
-
           </div>
-
         </div>
       </div>
 
-      {/* News bar */}
+      {/* NEWS BAR */}
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>📢 college News:</strong> Online Admission Portal is now live! Register today for FYJC and SYJC streams.
       </div>
     </>
   );

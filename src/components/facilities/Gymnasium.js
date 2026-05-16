@@ -14,7 +14,7 @@ function Gymnasium() {
           <div className="facilities-card">
 
             <p className="facilities-intro">
-              WMJC takes the physical health and fitness of its students and staff very seriously.
+              Demo-College takes the physical health and fitness of its students and staff very seriously.
               The college gymnasium is a state-of-the-art facility equipped with modern fitness
               equipment to promote a healthy lifestyle. It is open not just to students and staff
               but also to outsiders at concessional rates.
@@ -70,7 +70,7 @@ function Gymnasium() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

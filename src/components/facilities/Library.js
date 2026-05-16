@@ -81,7 +81,7 @@ function Library() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>college News:</strong> college Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

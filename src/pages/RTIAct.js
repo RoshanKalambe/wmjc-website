@@ -21,7 +21,7 @@ function RTIAct() {
               <strong> 12th October 2005</strong>.
             </p>
             <p>
-              Wamanrao Muranjan Junior College of Science and Commerce, being a recognized
+              Demo College of Science and Commerce, being a recognized
               and government-aided educational institution under the Maharashtra State Board
               of Secondary and Higher Secondary Education, is a public authority under the
               RTI Act and is committed to full transparency and proactive disclosure of
@@ -61,8 +61,8 @@ function RTIAct() {
           </div>
 
           <div className="rti-card">
-            <h3>Obligations of Public Authority (WMJC)</h3>
-            <p>As a public authority, Wamanrao Muranjan Junior College is obligated to:</p>
+            <h3>Obligations of Public Authority (Demo College)</h3>
+            <p>As a public authority, Demo College is obligated to:</p>
             <ul>
               <li>Maintain all its records duly catalogued and indexed in a manner that facilitates easy access.</li>
               <li>Publish information proactively so that citizens have minimum need to use the RTI Act.</li>
@@ -144,7 +144,7 @@ function RTIAct() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> Demo College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

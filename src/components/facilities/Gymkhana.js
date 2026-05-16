@@ -14,7 +14,7 @@ function Gymkhana() {
           <div className="facilities-card">
 
             <p className="facilities-intro">
-              The College Gymkhana is the hub of indoor sports and recreational activities at WMJC.
+              The College Gymkhana is the hub of indoor sports and recreational activities at Demo-College.
               It promotes sportsmanship, teamwork and healthy competition among students. The Gymkhana
               encourages students to participate not just within the college but also in inter-college
               and state level competitions.
@@ -66,7 +66,7 @@ function Gymkhana() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>College News:</strong> College Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

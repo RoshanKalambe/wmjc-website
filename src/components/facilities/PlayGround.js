@@ -14,7 +14,7 @@ function PlayGround() {
           <div className="facilities-card">
 
             <p className="facilities-intro">
-              Sports is an essential part of an educational institute. At WMJC, we strongly believe
+              Sports is an essential part of an educational institute. At college, we strongly believe
               in the all-round development of students which includes physical fitness and sportsmanship.
               The college has a large playground that supports a variety of outdoor sports and activities
               throughout the academic year.
@@ -78,7 +78,7 @@ function PlayGround() {
         </div>
       </div>
       <div className="news-bar">
-        <strong>WMJC News:</strong> WMJC Office, New Telephone Number - 52215-69961 - PrJC 😊
+        <strong>college News:</strong> college Office, New Telephone Number - 52215-69961 - PrJC 😊
       </div>
       <Footer />
     </>

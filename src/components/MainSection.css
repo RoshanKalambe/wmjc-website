@@ -1,200 +1,388 @@
+/* ─────────────────────────────────────────────
+   MAIN SECTION STYLING
+   ───────────────────────────────────────────── */
 .main-wrapper {
-  background: linear-gradient(to right, #dbe6f6, #c7d6ec);
-  padding: 50px 0;
+  background: linear-gradient(135deg, var(--light-gray) 0%, var(--gray-100) 100%);
+  padding: var(--spacing-3xl) 0;
   width: 100%;
 }
 
 .main-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 40px;
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  padding: 0 var(--spacing-lg);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: start;
 }
 
-/* LEFT */
+/* ─────────────────────────────────────────────
+   LEFT SECTION - WELCOME CONTENT
+   ───────────────────────────────────────────── */
+#welcome {
+  scroll-margin-top: 80px;
+}
+
 .left-section {
-  flex: 2;
-  min-width: 300px;
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--gray-200);
+  animation: slideUp var(--transition-base) ease-out;
 }
 
 .left-section h3 {
-  color: #1f4e8c;
-  font-size: 18px;
+  color: var(--primary-color);
+  font-size: var(--font-size-2xl);
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: var(--spacing-lg);
+  position: relative;
+  padding-bottom: var(--spacing-md);
+}
+
+.left-section h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  border-radius: 2px;
 }
 
 .left-section p {
-  font-size: 15px;
-  margin-bottom: 20px;
-  line-height: 1.75;
-  color: #333;
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-lg);
+  line-height: 1.8;
+  color: var(--gray-600);
 }
 
 .blue-title {
-  color: #1f4e8c;
-  font-size: 15px;
+  color: var(--primary-dark);
+  font-size: var(--font-size-lg);
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-top: var(--spacing-2xl);
+  margin-bottom: var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
 }
 
+.blue-title::before {
+  content: "📚";
+  font-size: var(--font-size-xl);
+}
+
+/* ─────────────────────────────────────────────
+   TABLE STYLING
+   ───────────────────────────────────────────── */
 .syllabus-table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 20px;
-  font-size: 14px;
+  margin-bottom: var(--spacing-xl);
+  font-size: var(--font-size-sm);
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.syllabus-table thead {
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  color: var(--white);
 }
 
 .syllabus-table th {
-  background: #2c5fa8;
-  color: white;
-  padding: 11px 14px;
+  padding: 14px 16px;
   text-align: left;
-  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.syllabus-table tbody tr {
+  border-bottom: 1px solid var(--gray-200);
+  transition: all var(--transition-fast);
+}
+
+.syllabus-table tbody tr:hover {
+  background: var(--light-gray);
+}
+
+.syllabus-table tbody tr:last-child {
+  border-bottom: none;
 }
 
 .syllabus-table td {
-  background: #f0f6ff;
-  padding: 10px 14px;
-  font-size: 14px;
-  border: 1px solid #c3d5ea;
-  color: #333;
+  padding: 12px 16px;
+  color: var(--gray-700);
 }
 
+.syllabus-table tbody tr:nth-child(odd) {
+  background: var(--light-gray);
+}
+
+/* ─────────────────────────────────────────────
+   RESULT BOX
+   ───────────────────────────────────────────── */
 .result-box {
-  background: #dbe6f6;
-  padding: 16px 18px;
-  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(30, 90, 180, 0.08), rgba(0, 212, 255, 0.08));
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--primary-color);
+  margin-top: var(--spacing-lg);
 }
 
-.result-box p {
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: #1f4e8c;
+.result-box ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .result-box li {
-  font-size: 14px;
-  margin-bottom: 6px;
-  color: #1a3c7a;
+  font-size: var(--font-size-base);
+  margin-bottom: var(--spacing-sm);
+  color: var(--gray-700);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
 }
 
-/* RIGHT */
+.result-box li::before {
+  content: "✓";
+  color: var(--success-color);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+}
+
+/* ─────────────────────────────────────────────
+   RIGHT SECTION - CARDS
+   ───────────────────────────────────────────── */
 .right-section {
-  flex: 1;
-  min-width: 260px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: var(--spacing-2xl);
 }
 
 .calendar-card,
 .notice-card {
-  background: #2c5fa8;
-  color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  background: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--gray-200);
+  transition: all var(--transition-base);
+  animation: slideUp var(--transition-base) ease-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.calendar-card::before,
+.notice-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+.calendar-card:hover,
+.notice-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--primary-color);
 }
 
 .calendar-card h4,
 .notice-card h4 {
-  font-size: 15px;
+  font-size: var(--font-size-lg);
   font-weight: 700;
-  margin-bottom: 14px;
+  margin-bottom: var(--spacing-lg);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.calendar-card h4::before {
+  content: "📅";
+  font-size: var(--font-size-xl);
+}
+
+.notice-card h4::before {
+  content: "📢";
+  font-size: var(--font-size-xl);
 }
 
 .calendar-card ul,
 .notice-card ul {
-  padding-left: 18px;
+  list-style: none;
+  padding: 0;
 }
 
 .calendar-card li,
 .notice-card li {
-  font-size: 14px;
-  margin-bottom: 8px;
-  line-height: 1.55;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+  color: var(--gray-700);
+  padding-left: 20px;
+  position: relative;
 }
 
-.notice-card li {
-  list-style: none;
-  padding-left: 2px;
+.calendar-card li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
 .notice-card li::before {
-  content: "▶ ";
-  font-size: 10px;
+  content: "▶";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-size: var(--font-size-xs);
 }
 
-/* NEWS BAR */
+.calendar-card li strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.calendar-card li em {
+  color: var(--gray-500);
+  font-size: var(--font-size-xs);
+  display: block;
+  margin-top: 2px;
+}
+
+.notice-card li {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* ─────────────────────────────────────────────
+   NEWS BAR
+   ───────────────────────────────────────────── */
 .news-bar {
-  background: #dbe6f6;
-  border-top: 1px solid #b0c8e8;
-  padding: 12px 40px;
-  font-size: 14px;
-  color: #1a3c7a;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+  color: rgba(255, 255, 255, 0.9);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  font-size: var(--font-size-sm);
   width: 100%;
+  margin-top: var(--spacing-2xl);
+  animation: slideUp var(--transition-base) ease-out;
+  box-shadow: var(--shadow-md);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
 }
 
 .news-bar strong {
-  color: #1f4e8c;
+  color: var(--secondary-color);
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-/* FOOTER */
-.footer {
-  background: #1f3a6e;
-  color: #ccd9ee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 40px;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 100%;
-}
+/* ─────────────────────────────────────────────
+   RESPONSIVE DESIGN
+   ───────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .main-container {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+  }
 
-.footer-links {
-  display: flex;
-  gap: 24px;
-}
+  .left-section {
+    padding: var(--spacing-xl);
+  }
 
-.footer-links a {
-  color: #ccd9ee;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
-.footer-copy {
-  font-size: 13px;
-  color: #8fa8c8;
+  .calendar-card,
+  .notice-card {
+    padding: var(--spacing-lg);
+  }
 }
 
 @media (max-width: 768px) {
+  .main-wrapper {
+    padding: var(--spacing-2xl) 0;
+  }
+
   .main-container {
-    padding: 0 20px;
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+    padding: 0 var(--spacing-md);
   }
 
-  .left-section,
+  .left-section {
+    padding: var(--spacing-lg);
+  }
+
+  .left-section h3 {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-md);
+  }
+
   .right-section {
-    width: 100%;
+    gap: var(--spacing-lg);
   }
 
-  .news-bar,
-  .footer {
-    padding: 12px 20px;
+  .calendar-card,
+  .notice-card {
+    padding: var(--spacing-lg);
+  }
+
+  .calendar-card h4,
+  .notice-card h4 {
+    font-size: var(--font-size-base);
+  }
+
+  .syllabus-table {
+    font-size: var(--font-size-xs);
+  }
+
+  .syllabus-table th,
+  .syllabus-table td {
+    padding: 8px 10px;
+  }
+
+  .news-bar {
+    font-size: var(--font-size-xs);
+    padding: var(--spacing-md) var(--spacing-lg);
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .left-section {
+    padding: var(--spacing-md);
+  }
+
+  .left-section h3 {
+    font-size: var(--font-size-lg);
+  }
+
+  .left-section p {
+    font-size: var(--font-size-sm);
+  }
+
+  .blue-title {
+    font-size: var(--font-size-base);
+  }
+
+  .calendar-card,
+  .notice-card {
+    padding: var(--spacing-md);
   }
 }
